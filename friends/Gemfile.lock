@@ -1,6 +1,6 @@
 GIT
-  remote: git://github.com/bborn/communityengine.git
-  revision: 3464a8e8c2be115287c668873ad8e9030f14520c
+  remote: git://github.com/javasaloon/communityengine.git
+  revision: 8acd885a83feea100de7aca8054ea70bcfa9d199
   branch: rails3
   specs:
     community_engine (2.0.0.beta4)
@@ -19,7 +19,7 @@ GIT
       koala
       meta_search (= 1.1.3)
       omniauth (= 0.3.2)
-      paperclip (~> 2.4.3)
+      paperclip (~> 3.0)
       prototype-rails
       rack (>= 1.4.1)
       rails (~> 3.2.0)
@@ -171,10 +171,11 @@ GEM
       oa-more (= 0.3.2)
       oa-oauth (= 0.3.2)
       oa-openid (= 0.3.2)
-    paperclip (2.4.5)
-      activerecord (>= 2.3.0)
-      activesupport (>= 2.3.2)
-      cocaine (>= 0.0.2)
+    paperclip (3.3.1)
+      activemodel (>= 3.0.0)
+      activerecord (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      cocaine (~> 0.4.0)
       mime-types
     polyamorous (0.5.0)
       activerecord (~> 3.0)

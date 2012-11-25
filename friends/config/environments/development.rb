@@ -21,8 +21,8 @@ Friends::Application.configure do
     :address              => "smtp.gmail.com",
     :port                 => 587,
     :domain               => 'localhost',
-    :user_name            => 'javasaloon@gmail.com',
-    :password             => '',
+    :user_name            => 'jacky.cheng.xiang@gmail.com',
+    :password             => 'lele1loveyou',
     :authentication       => 'plain',
     :enable_starttls_auto => true  
   }
@@ -45,4 +45,7 @@ Friends::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+  # which identify
+  Paperclip.options[:command_path] = "/usr/local/bin"
+
 end
